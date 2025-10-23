@@ -27,7 +27,7 @@
       "artifact": {
         "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar",
         "size": 4450992,
-        "MD5": "COLOCA_EL_MD5_AQUI"
+        "MD5": "2332FCDB59CA0E4EE79CDDF8FE114D25"
       },
       "subModules": [
         {
@@ -37,7 +37,7 @@
           "artifact": {
             "url": "https://raw.githubusercontent.com/Heeectoorr/SaturnClient-Distribution/main/mods/OptiFine_1.8.9_HD_U_M5.jar",
             "size": 2345678,
-            "MD5": "COLOCA_EL_MD5_AQUI"
+            "MD5": "2332FCDB59CA0E4EE79CDDF8FE114D25"
           }
         },
         {
@@ -47,7 +47,7 @@
           "artifact": {
             "url": "https://raw.githubusercontent.com/Heeectoorr/SaturnClient-Distribution/main/mods/Keystrokes.jar",
             "size": 345678,
-            "MD5": "COLOCA_EL_MD5_AQUI"
+            "MD5": "2332FCDB59CA0E4EE79CDDF8FE114D25"
           }
         }
       ]
