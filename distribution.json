@@ -1,78 +1,56 @@
 {
-  "id": "saturn-client",
-  "name": "Saturn Client Distribution",
   "version": "1.0.0",
-    "rss": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/refs/heads/main/rrs.xml",
-    "newsUrl": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/refs/heads/main/news.html",
   "discord": {
-    "clientId": "TU_DISCORD_CLIENT_ID",
+    "clientId": "961723051924418661",
     "smallImageText": "Saturn Client",
     "smallImageKey": "saturn_icon"
   },
-  "assetsBase": "https://raw.githubusercontent.com/Heeectoorr/SaturnClient-Distribution/main/",
+  "rss": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/refs/heads/main/rrs.xml",
   "servers": [
     {
       "id": "royaltymc",
       "name": "RoyaltyMC",
       "description": "Servidor oficial de RoyaltyMC.live",
       "icon": "icons/royalty.png",
+      "version": "1.0.0",
       "address": "royaltymc.live",
       "minecraftVersion": "1.8.9",
       "mainServer": true,
       "autoconnect": false
     }
   ],
-  "versions": [
+  "modules": [
     {
-      "id": "vanilla-1.8.9",
-      "displayName": "Vanilla 1.8.9",
-      "minecraftVersion": "1.8.9",
-      "type": "vanilla",
-      "description": "Minecraft 1.8.9 vanilla sin mods",
-      "requiredFiles": [],
-      "libraries": []
-    },
-    {
-      "id": "forge-1.8.9",
-      "displayName": "Forge 1.8.9",
-      "minecraftVersion": "1.8.9",
-      "type": "forge",
-      "description": "Minecraft 1.8.9 con Forge y mods",
-      "mainClass": "net.minecraft.launchwrapper.Launch",
-      "arguments": [
-        "--tweakClass",
-        "net.minecraftforge.fml.common.launcher.FMLTweaker"
-      ],
-      "forge": {
-        "version": "11.15.1.2318-1.8.9",
-        "installer": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar"
+      "id": "net.minecraftforge:forge:11.15.1.2318-1.8.9",
+      "name": "Minecraft Forge 1.8.9",
+      "type": "ForgeHosted",
+      "artifact": {
+        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar",
+        "size": 4450992,
+        "MD5": "COLOCA_EL_MD5_AQUI"
       },
-      "requiredFiles": [
+      "subModules": [
         {
-          "name": "OptiFine_1.8.9_HD_U_M5.jar",
-          "url": "https://github.com/Heeectoorr/SaturnClient-Distribution/raw/main/mods/OptiFine_1.8.9_HD_U_M5.jar",
-          "sha1": "REEMPLAZA_CON_SHA1",
-          "size": 2345678
+          "id": "OptiFine:1.8.9_HD_U_M5",
+          "name": "OptiFine 1.8.9 HD U M5",
+          "type": "ForgeMod",
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/Heeectoorr/SaturnClient-Distribution/main/mods/OptiFine_1.8.9_HD_U_M5.jar",
+            "size": 2345678,
+            "MD5": "COLOCA_EL_MD5_AQUI"
+          }
         },
         {
-          "name": "Keystrokes.jar",
-          "url": "https://github.com/Heeectoorr/SaturnClient-Distribution/raw/main/mods/Keystrokes.jar",
-          "sha1": "REEMPLAZA_CON_SHA1",
-          "size": 345678
-        }
-      ],
-      "libraries": [
-        {
-          "name": "org.lwjgl:lwjgl:2.9.4",
-          "url": "https://repo1.maven.org/maven2/"
+          "id": "Keystrokes:1.0.0",
+          "name": "Keystrokes Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/Heeectoorr/SaturnClient-Distribution/main/mods/Keystrokes.jar",
+            "size": 345678,
+            "MD5": "COLOCA_EL_MD5_AQUI"
+          }
         }
       ]
     }
-  ],
-  "settings": {
-    "defaultRam": "2G",
-    "minRam": "1G",
-    "maxRam": "6G",
-    "allowCustomJava": true
-  }
+  ]
 }
