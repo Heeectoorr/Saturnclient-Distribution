@@ -11,7 +11,7 @@
       "id": "Forge-1.8.9",
       "name": "Forge (Minecraft 1.8.9)",
       "description": "Demo Running Minecraft 1.8.9 (Forge v45.0.9)",
-      "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.19.4/Demo-1.19.4.png",
+      "icon": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/refs/heads/main/icons/royalty.png",
       "version": "1.0.0",
       "address": "royaltymc.live:25565",
       "minecraftVersion": "1.8.9",
