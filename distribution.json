@@ -17,7 +17,7 @@
       "minecraftVersion": "1.8.9",
       "discord": {
         "shortId": "1.8.9 Forge",
-        "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
+        "largeImageKey": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/refs/heads/main/icons/royalty.png",
         "largeImageText": "forge-vanilla"
       },
       "mainServer": false,
