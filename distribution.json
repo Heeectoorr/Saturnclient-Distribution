@@ -3,14 +3,14 @@
   "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
   "discord": {
     "clientId": "961723051924418661",
-    "smallImageText": "Change me through Nebula",
+    "smallImageText": "Saturn Client",
     "smallImageKey": "big"
   },
   "servers": [
     {
       "id": "Forge-1.8.9",
       "name": "Forge (Minecraft 1.8.9)",
-      "description": "Demo Running Minecraft 1.8.9 (Forge 11.15.1.2318)",
+      "description": "Minecraft 1.8.9 con Forge 11.15.1.2318",
       "icon": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/refs/heads/main/icons/royalty.png",
       "version": "1.0.0",
       "address": "royaltymc.live:25565",
@@ -18,11 +18,23 @@
       "discord": {
         "shortId": "1.8.9 Forge",
         "largeImageKey": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/refs/heads/main/icons/royalty.png",
-        "largeImageText": "forge-vanilla"
+        "largeImageText": "Minecraft 1.8.9 Forge"
       },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
+        {
+          "id": "minecraft:client:1.8.9",
+          "name": "Minecraft 1.8.9",
+          "type": "Library",
+          "classpath": true,
+          "artifact": {
+            "size": 9817234,
+            "MD5": "b58b2ceb36460e445d3a0d2d7c7e5b6c",
+            "url": "https://launcher.mojang.com/v1/objects/b58b2ceb36460e445d3a0d2d7c7e5b6c0ab682fc/client.jar"
+          },
+          "subModules": []
+        },
         {
           "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318",
           "name": "Minecraft Forge 1.8.9",
@@ -30,32 +42,21 @@
           "classpath": true,
           "artifact": {
             "size": 2654813,
-            "MD5": "beda619c465af293e63952dd573c137c17c0a4cd",
-            "url": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/d81254d1928ac0af48b411cb024d1413ff498b6e/jars/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+            "MD5": "beda619c465af293e63952dd573c137c",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318/forge-1.8.9-11.15.1.2318-universal.jar"
           },
-          "subModules": []
-        },
-        {
-          "id": "minecraft:client:1.8.9",
-          "name": "Minecraft 1.8.9",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 8461484,
-            "MD5": "3870888a6c3d349d3771a3e9d16c9bf5e076b908",
-            "url": "https://github.com/Heeectoorr/Saturnclient-Distribution/raw/refs/heads/main/jars/1.8.9.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "optifine:OptiFine_1.8.9_HD_U_M5@jar",
-          "name": "OptiFine 1.8.9",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 700000,
-            "url": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/d81254d1928ac0af48b411cb024d1413ff498b6e/jars/OptiFine_1.8.9_HD_U_M5.jar",
-            "MD5": "d362d58a28f5373b141b9e426e8e160638bfafcd"
-          }
+          "subModules": [
+            {
+              "id": "optifine:OptiFine_1.8.9_HD_U_M5@jar",
+              "name": "OptiFine 1.8.9 HD U M5",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 1947244,
+                "MD5": "d362d58a28f5373b141b9e426e8e1606",
+                "url": "https://optifine.net/downloadx?f=OptiFine_1.8.9_HD_U_M5.jar"
+              }
+            }
+          ]
         }
       ]
     }
