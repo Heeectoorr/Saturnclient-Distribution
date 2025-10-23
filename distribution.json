@@ -50,7 +50,7 @@
               "artifact": {
                 "size": 241639,
                 "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                "url": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/d81254d1928ac0af48b411cb024d1413ff498b6e/jars/asm-all-5.0.3.jar"
+                "url": "https://github.com/Heeectoorr/Saturnclient-Distribution/raw/refs/heads/main/jars/asm-all-5.0.3.jar"
               }
             },
             {
@@ -60,7 +60,7 @@
               "artifact": {
                 "size": 248566,
                 "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
-                "url": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/d81254d1928ac0af48b411cb024d1413ff498b6e/jars/jline-2.13.jar"
+                "url": "https://github.com/Heeectoorr/Saturnclient-Distribution/raw/refs/heads/main/jars/jline-2.13.jar"
               }
             },
             {
@@ -190,7 +190,7 @@
               "artifact": {
                 "size": 62477,
                 "MD5": "13560a58a79b46b82057686543e8d727",
-                "url": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/d81254d1928ac0af48b411cb024d1413ff498b6e/jars/jopt-simple-4.6.jar"
+                "url": "https://github.com/Heeectoorr/Saturnclient-Distribution/raw/refs/heads/main/jars/jopt-simple-4.6.jar"
               }
             },
             {
