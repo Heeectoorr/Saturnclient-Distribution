@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
   "discord": {
-    "clientId": "1086936373057040395",
+    "clientId": "961723051924418661",
     "smallImageText": "Change me through Nebula",
     "smallImageKey": "big"
   },
@@ -41,7 +41,7 @@
           "type": "Library",
           "classpath": true,
           "artifact": {
-            "size": 12000000,
+            "size": 8461484,
             "MD5": "3870888a6c3d349d3771a3e9d16c9bf5e076b908",
             "url": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/d81254d1928ac0af48b411cb024d1413ff498b6e/jars/minecraft-1.8.9.jar"
           },
