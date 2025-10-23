@@ -2,21 +2,21 @@
   "id": "saturn-client",
   "name": "Saturn Client Distribution",
   "version": "1.0.0",
-  "rss": "https://<TU_USUARIO>.github.io/SaturnClient-Distribution/rss.xml",
-  "newsUrl": "https://<TU_USUARIO>.github.io/SaturnClient-Distribution/news.html",
+  "rss": "https://Heeectoorr.github.io/SaturnClient-Distribution/rss.xml",
+  "newsUrl": "https://Heeectoorr.github.io/SaturnClient-Distribution/news.html",
   "discord": {
     "clientId": "TU_DISCORD_CLIENT_ID",
     "smallImageText": "Saturn Client",
     "smallImageKey": "saturn_icon"
   },
-  "assetsBase": "https://raw.githubusercontent.com/<TU_USUARIO>/SaturnClient-Distribution/main/",
+  "assetsBase": "https://raw.githubusercontent.com/Heeectoorr/SaturnClient-Distribution/main/",
   "servers": [
     {
       "id": "royaltymc",
       "name": "RoyaltyMC",
       "description": "Servidor oficial de RoyaltyMC.live",
       "icon": "icons/royalty.png",
-      "address": "play.royaltymc.live",
+      "address": "royaltymc.live",
       "minecraftVersion": "1.8.9",
       "mainServer": true,
       "autoconnect": false
@@ -28,27 +28,37 @@
       "displayName": "Vanilla 1.8.9",
       "minecraftVersion": "1.8.9",
       "type": "vanilla",
+      "description": "Minecraft 1.8.9 vanilla sin mods",
       "requiredFiles": [],
       "libraries": []
     },
     {
-      "id": "saturn-1.8.9-custom",
-      "displayName": "Saturn 1.8.9 (custom)",
+      "id": "forge-1.8.9",
+      "displayName": "Forge 1.8.9",
       "minecraftVersion": "1.8.9",
-      "type": "custom",
-      "description": "Cliente saturn con optimizaciones y mods",
+      "type": "forge",
+      "description": "Minecraft 1.8.9 con Forge y mods",
+      "mainClass": "net.minecraft.launchwrapper.Launch",
+      "arguments": [
+        "--tweakClass",
+        "net.minecraftforge.fml.common.launcher.FMLTweaker"
+      ],
+      "forge": {
+        "version": "11.15.1.2318-1.8.9",
+        "installer": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar"
+      },
       "requiredFiles": [
         {
-          "name": "client.jar",
-          "url": "https://github.com/<TU_USUARIO>/SaturnClient-Distribution/raw/main/jars/client.jar",
+          "name": "OptiFine_1.8.9_HD_U_M5.jar",
+          "url": "https://github.com/Heeectoorr/SaturnClient-Distribution/raw/main/mods/OptiFine_1.8.9_HD_U_M5.jar",
           "sha1": "REEMPLAZA_CON_SHA1",
-          "size": 1234567
+          "size": 2345678
         },
         {
-          "name": "keystrokes.jar",
-          "url": "https://github.com/<TU_USUARIO>/SaturnClient-Distribution/raw/main/mods/keystrokes.jar",
+          "name": "Keystrokes.jar",
+          "url": "https://github.com/Heeectoorr/SaturnClient-Distribution/raw/main/mods/Keystrokes.jar",
           "sha1": "REEMPLAZA_CON_SHA1",
-          "size": 23456
+          "size": 345678
         }
       ],
       "libraries": [
