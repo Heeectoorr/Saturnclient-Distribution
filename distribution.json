@@ -2,8 +2,8 @@
   "id": "saturn-client",
   "name": "Saturn Client Distribution",
   "version": "1.0.0",
-  "rss": "https://Heeectoorr.github.io/SaturnClient-Distribution/rss.xml",
-  "newsUrl": "https://Heeectoorr.github.io/SaturnClient-Distribution/news.html",
+    "rss": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/refs/heads/main/rrs.xml",
+    "newsUrl": "https://raw.githubusercontent.com/Heeectoorr/Saturnclient-Distribution/refs/heads/main/news.html",
   "discord": {
     "clientId": "TU_DISCORD_CLIENT_ID",
     "smallImageText": "Saturn Client",
